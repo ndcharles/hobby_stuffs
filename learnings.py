@@ -1,4 +1,4 @@
-'''
+# Lets play a guess game
 x = int(input("Please enter an integer:"))
 y = int(input("Please enter another integer:"))
 z = int(input("Please enter a third integer:"))
@@ -10,6 +10,8 @@ if z > maxNum: # Fix our guess again if needed
     maxNum = z
 print(maxNum,"is greatest.")
 print("Done.")
+
+
 
 
 # determine if it's a perfect triangle
@@ -24,6 +26,8 @@ if sum%2 != 0:
 else:
 	print('It is lit!')
 print('Done!')
+
+
 
 
 # Mathematical operations on set of numbers
@@ -52,12 +56,16 @@ else:
     
 
 
+
+
 #Open a file in directory in python.
 
 catfile = open(input(), 'r')   # can be r, w, a = read, write, append
 for line in catfile:
     print(line.rstrip())    # rstrip() removes extra line after each line
 catfile.close()
+
+
 
 
 # The first can also be
@@ -68,6 +76,8 @@ for line in catfile:
 catfile.close()
 
 
+
+
 # create a file and write to it
 filename = input("Please name your file:")
 yourname = input("What is your name?:")
@@ -76,6 +86,9 @@ outfile = open(filename, "w")
 outfile.write("Hello " + yourname + ". How are you doing today?\n")
 outfile.write("Next year you are going to be " + str(age+1) + "years old")
 outfile.close()
+
+
+
 
 
 # turtle diagram
@@ -91,6 +104,9 @@ t.forward(25)
 t.left(90)
 t.forward(25)
 screen.exitonclick()
+
+
+
 
 
 # pentagon in python
@@ -113,12 +129,17 @@ t.forward(ff)
 screen.exitonclick()
 
 
+
+
+#Explode some xters
 def explode(s):
     lst = []
     for c in s:
         lst.append(c)
     return lst
 print(explode('antimonophotogeographicationalism'))
+
+
 
 
 
@@ -130,11 +151,16 @@ def implode(lst):
 print(implode(['a', 'n', 't', 'i', 'm', 'o', 'n', 'o', 'p', 'h', 'o', 't', 'o', 'g', 'e', 'o', 'g', 'r', 'a', 'p', 'h', 'i', 'c', 'a', 't', 'i', 'o', 'n', 'a', 'l', 'i', 's', 'm']))
 
 
-### The following ar courtesy of 'The Python Workbook by Ben Stephenson
+
+
+
+### The following ar courtesy of 'The Python Workbook by Ben Stephenson'
 ## Introduction to Python Exercises 
 # ask user to input name
 name = input("What is your name amigos?:")
 print ("Hello", name, ", Welcome to your PC")
+
+
 
 
 # calculate area of a room
@@ -146,12 +172,16 @@ Area = round(Area, 2)
 print("Area of the room is", Area, "sq. metres")
 
 
+
+
 # The area of a farm in acres
 length = float(input("What is the length of the farm (in feet): "))
 width = float(input("What is the widthth of the farm (in feet): "))
 area = length*width
 acre = round((43560/area), 2)  # 1acre is 43560sq.ft
 print("Your farm is", acre, "acres of land")
+
+
 
 
 # calculate the amount of refund to give container returners
@@ -167,6 +197,9 @@ elif litres > 1.0:
 print("Do have a wonderful day ahead")
 
 
+
+
+
 # situation where some containers are a mixture of <1L and >1L
 lone = int(input("How many containers are 1L or less?: "))
 mone = int(input("How many containers are more than 1L?: "))
@@ -178,6 +211,9 @@ total_refund = refund1 + refund2
 print("You will receive a total refund of", "$" + str(total_refund))
 
 print("Do have a wonderful day ahead")
+
+
+
 
 
 # Calculate the tax and tip in a hotel situation 
@@ -198,6 +234,9 @@ print("The grand total for the meal = $%.2f." % (meal + tax + tip))
 
 
 
+
+
+
 # Change height from ft.in to cm
 # 1ft = 12 inches
 # 1inch = 2.54 cm
@@ -213,11 +252,16 @@ ht_cm = n_in * 2.54
 print("Your height %.2f feet and %.2f inches is equivalent to %.2f centimeters" % (ft, inches, ht_cm))
 
 
+
+
+
 # Calc area of a circle
 from math import *
 radius = float(input("Add the radius of the circle: "))
 area = pi * radius**2
 print(area)
+
+
 
 
 
@@ -231,6 +275,9 @@ print("Your BMI is %d" %BMI)
 
 
 
+
+
+
 #Calculate BMI in pounds and inches
 weight = float(input("Add your weight (in pounds): "))
 height = float(input("Add your height (in inches): "))
@@ -238,6 +285,9 @@ height = float(input("Add your height (in inches): "))
 BMI = (weight / height**2) * 703
 
 print("Your BMI is %d" %BMI)
+
+
+
 
 
 
@@ -249,6 +299,9 @@ if oya%2 == 0:
     print(oya, "is an even number")
 else:
     print(oya, "is an odd number")
+
+
+
 
 
 
@@ -268,6 +321,9 @@ print("That was quite fun!")
 
 
 
+
+
+
 # Indicate whether a letter is a Vowel or Consonant
 vowels = ['a', 'e', 'i', 'o', 'u']
 alphabet = str(input("Enter an alphabet: "))
@@ -279,6 +335,9 @@ elif alphabet == "y":
     print(alphabet, "is a consonant but can sometimes be a vowel")
 else:
     print(alphabet, "is a consonant")
+
+
+
 
 
 
@@ -308,6 +367,8 @@ else:
 
 
 
+
+
 # Doing the shape above using Guess and Check pattern
 
 sides = int(input("Enter the number of sides: "))
@@ -327,6 +388,8 @@ if name == " ":
     print("That number of sides is not supported by this program")
 else:
     print("That's a", name)
+
+
 
 
 
@@ -354,23 +417,31 @@ else:
 
 
 
-# Who is on the face of American currency?
-denom = int(input("Enter the denomination in USD: "))
 
-one = "George Washington"
-two = "Thomas Jefferson"
-five = "Abraham Lincoln"
-ten = "Alexander Hamilton"
-twenty = "Andrew Jackson"
-fifty = "Ulysses S. Grant"
-hundred = "Benjamin Franklin"
+
+
+
+# Who is on the face of Nigerian currency?
+denom = int(input("Enter the denomination in Naira (0 for 50kobo): "))
+
+zero = "Corn Cob"
+one = "Herbert Macaulay"
+two = "National Assembly"
+five = "Tafawa Balewa"
+ten = "Alvan Ikoku"
+twenty = "Murtala Muhhamed"
+fifty = "WAZOBIA"
+hundred = "Obafemi Awolowo"
+two_hundred = "Ahmadu Bello"
+five_hundred = "Nnamdi Azikiwe"
+one_thousand = "Aliyu Mai-Borno & Clement Isong"
 
 individual = " "
 
-if denom == 1:
-    individual = one
-elif denom == 2:
-        individual = two
+if denom == 0:
+    individual = zero
+elif denom == 1:
+        individual = one
 elif denom == 2:
         individual = two
 elif denom == 5:
@@ -383,13 +454,22 @@ elif denom == 50:
         individual = fifty
 elif denom == 100:
         individual = hundred
+elif denom == 200:
+        individual = two_hundred
+elif denom == 500:
+        individual = five_hundred
+elif denom == 1000:
+        individual = one_thousand
 else:
     individual = " "
 
 if individual == " ":
     print("No such denomination")
 else:
-    print("The individual that appears on", "$" + str(denom), "is", individual)
+    print("The individual that appears on", "₦" + str(denom), "is", individual)
+
+
+
 
 
 
@@ -422,6 +502,10 @@ else:
 
 
 
+
+
+
+
 # What colour is a square on a board game?
 print("This algo draws from bottom up and left to right.")
 card = input("Enter position (e.g. C4): ")
@@ -445,6 +529,11 @@ else:
     print("The square in this position is white")
 
 ## To-Do: Add validation line so letters (A-H) and num(1-8)
+
+
+
+
+
 
 
 
@@ -499,6 +588,8 @@ if month == "December" and day > 20:
     
 # At the end
 print("The day", day, month, "is, season)
+
+
 
 
 
@@ -604,6 +695,12 @@ print(about)
 
 
 
+
+
+
+
+
+
 # Earthquake magnitude ranges on the Richter scale and their descriptions
 
 mag = float(input("Enter the magnitude: "))
@@ -632,6 +729,9 @@ print("The earthquake of magnitude", mag, "is a", desc, "Earthquake")
 
 
 
+
+
+
 # Assessing employers for salary raise
 
 rating = float(input("What is your rating?: "))
@@ -645,6 +745,9 @@ elif rating == 0.4:
 else:
     meaning = "Meritorous"
 print("Your overall rating is", rating, "which is", meaning, "Your raise is", "$" + str(amount))
+
+
+
 
 
 
@@ -692,6 +795,9 @@ print("This month's bill is $%.2f inclusive of tax" %grand_total)
 
 
 
+
+
+
 ## Now Let's loop like a native
 
 
@@ -702,6 +808,9 @@ while count < 10:
     count += 1
 print()
 print("Done")
+
+
+
 
 
 
@@ -717,12 +826,19 @@ print("Done")
 
 
 
+
+
+
 #typically for loop of the above. Conscise and clear.
 print('Print out values in a range')
 for i in range(0, 10):
     print(i, ' ', end='')
 print()
 print('Done')
+
+
+
+
 
 
 # The anonymous loop variable
@@ -744,6 +860,9 @@ print('Done')
 
 
 
+
+
+
 # Dice rolling
 import random
 MIN = 1
@@ -760,14 +879,16 @@ while roll_again == 'y':
 
 
 
+
+
+
+
 # The shorthand if statement (if expression)
 
 age = int(input("Enter your age: "))
 
 status = ('teenager' if age > 12 and age < 20 else 'not teenager')
 print(status)
-
-
 
 
 # The above is a shorthand for the below code
@@ -781,7 +902,13 @@ if (age > 12) and age < 20:
 else:
     status = 'not teenager'
 print(status)
-'''
+
+
+
+
+
+
+# The guess game 
 
 import random 
 
