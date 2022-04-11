@@ -91,7 +91,7 @@ if gender == 'male' and age == 20:
 		dairy = '3 cups' 
 		protein = '6.5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '10 ounces'
 		vege = '3.5 cups'
 		fruits = '2.5 cups'
@@ -107,7 +107,7 @@ elif gender == 'female' and age == 20:
 		dairy = '3 cups' 
 		protein = '5.5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '7 ounces'
 		vege = '3 cups'
 		fruits = '2 cups'
@@ -124,7 +124,7 @@ elif gender == 'male' and age == 30:
 		dairy = '3 cups' 
 		protein = '6.5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '10 ounces'
 		vege = '3.5 cups'
 		fruits = '2.5 cups'
@@ -140,7 +140,7 @@ elif gender == 'female' and age == 30:
 		dairy = '3 cups' 
 		protein = '5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '6 ounces'
 		vege = '2.5 cups'
 		fruits = '2 cups'
@@ -158,7 +158,7 @@ elif gender == 'male' and age == 40:
 		dairy = '3 cups' 
 		protein = '6.5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '9 ounces'
 		vege = '3.5 cups'
 		fruits = '2 cups'
@@ -175,7 +175,7 @@ elif gender == 'female' and age == 40:
 		dairy = '3 cups' 
 		protein = '5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '6 ounces'
 		vege = '2.5 cups'
 		fruits = '2 cups'
@@ -192,7 +192,7 @@ elif gender == 'male' and age == 50:
 		dairy = '3 cups' 
 		protein = '6 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '9 ounces'
 		vege = '3.5 cups'
 		fruits = '2 cups'
@@ -208,7 +208,7 @@ elif gender == 'female' and age == 50:
 		dairy = '3 cups' 
 		protein = '5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '6 ounces'
 		vege = '2.5 cups'
 		fruits = '2 cups'
@@ -225,7 +225,7 @@ elif gender == 'male' and age == 60:
 		dairy = '3 cups' 
 		protein = '6 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '8 ounces'
 		vege = '3 cups'
 		fruits = '2 cups'
@@ -241,7 +241,7 @@ elif gender == 'female' and age == 60:
 		dairy = '3 cups' 
 		protein = '5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '6 ounces'
 		vege = '2.5 cups'
 		fruits = '1.5 cups'
@@ -258,7 +258,7 @@ elif gender == 'male' and age == 70:
 		dairy = '3 cups' 
 		protein = '5.5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '8 ounces'
 		vege = '3 cups'
 		fruits = '2 cups'
@@ -274,7 +274,7 @@ elif gender == 'female' and age == 70:
 		dairy = '3 cups' 
 		protein = '5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '6 ounces'
 		vege = '2.5 cups'
 		fruits = '1.5 cups'
@@ -290,7 +290,7 @@ elif gender == 'male' and age == 80:
 		dairy = '3 cups' 
 		protein = '5.5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '7 ounces'
 		vege = '3 cups'
 		fruits = '2 cups'
@@ -305,7 +305,7 @@ elif gender == 'female' and age == 80:
 		dairy = '3 cups' 
 		protein = '5 ounces'
 		
-	elif activity_level > 30 and activity_level < 60:
+	elif activity_level > 30 and activity_level <= 60:
 		grain = '6 ounces'
 		vege = '2.5 cups'
 		fruits = '1.5 cups'
